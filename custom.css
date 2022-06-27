@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after { box-sizing:border-box; }
+a { text-decoration:none; color:inherit; cursor:pointer; }
+button { background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer; }
+figure{ margin:0; }
+ul, ol, dd { margin:0; padding:0; list-style:none; }
+h1, h2, h3, h4, h5, h6 { margin:0; font-size:inherit; font-weight:inherit; }
+p { margin:0; }
+cite { font-style:normal; }
+fieldset { border-width:0; padding:0; margin:0; }
+
+@font-face {
+	font-family: "Kaushan Script";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	  src: local("Kaushan Script"),
+			 url("/fonts/kaushanscript.woff") format("woff"),
+			 url("/fonts/kaushanscript.woff2") format("woff2");
+	}
+
+.first-p {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 30px;
+	line-height: 150%;
+	color: aqua;
+	text-shadow: 2px 1px 1px #8a2ce2;
+	text-indent: 30px;
+	font-weight: 700;
+	text-align: center;
+	word-spacing: 0.4em;
+	letter-spacing: 2px;
+}
+
+.second-p {
+	font-family: 'Smooch', cursive;
+	font-size: 30px;
+	line-height: 90%;
+	color: blueviolet;
+	text-shadow: 4px 3px 2px #3cb371;
+	text-indent: 30px;
+	font-weight: bolder;
+	text-align: justify;
+	word-spacing: 0.4em;
+	letter-spacing: 6px;
+}
+
+.third-p {
+	font-family: "kaushan script", "Arial", sans-serif;
+	font-size: 25px;
+	line-height: 120%;
+	color: chocolate;
+	text-shadow: 7px 6px 4px #4040df;
+	font-weight: lighter;
+	text-align: left;
+	word-spacing: normal;
+	letter-spacing: 0.3em;
+}
